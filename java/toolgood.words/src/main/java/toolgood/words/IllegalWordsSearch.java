@@ -1,20 +1,21 @@
 package toolgood.words;
 
-import java.io.InputStream;
+import toolgood.words.internals.BaseSearchEx;
+
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 import java.util.function.Function;
 
-import toolgood.words.internals.BaseSearchEx;
-
 /**
  * 最新版本的IllegalWordsSearch， 与2020.05.24以前的版本不兼容, IllegalWordsSearch类太费精力了，头发稀疏了。
  * 我未来可能以敏感词过滤做为创业项目，所以这是最后的开源版本，不再免费补bug了。
  * IllegalWordsSearch修复了2020-10-8日前所有bug。
+ * 本机测试
  */
 @Deprecated
 public class IllegalWordsSearch extends BaseSearchEx {
